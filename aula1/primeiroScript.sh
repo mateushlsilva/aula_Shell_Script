@@ -17,7 +17,7 @@
 ######################################################
 
 DATAHORA=$(date +%H:%M)
-ARQALUNOS="/home/mateus/Documentos/estudos/linux/shell_script/aula0/alunos.txt"
+ARQALUNOS="/home/mateus/Documentos/estudos/linux/shell_script/aula_Shell_Scprit/aula0/alunos.txt"
 
 
 # Função de leitura da data e hora
