@@ -1,5 +1,27 @@
 #!/bin/bash
 
+##########################################################################
+#
+#                       Exercício 11
+# Crie um script que receba uma opção e uma data, as opções serão as
+# seguintes:
+# • -f <DATA>: Retorna 0 para data no formato BR (DD/MM/YYYY ou
+# DDMMYYY), 1 para formato US (MM/DD/YYYY ou MMDDYYYY), 2 quando
+# não é possível determinar (Exemplo 12/12/1990) e 3 quando o dia e mês
+# são inválidos (Exemplo 30/30/1990)
+# -i <DATA>: Inverte a data de formato BR para US ou de US para BR.
+# Sempre inclui barras.
+# • -b <DATA>: Inclui as barras de data. Validar se o formato
+# • -e <DATA>: Exibe a data em formato extenso. Exemplo de 13081918
+# para 13 de Agosto de 1981"
+# • --help: Exibir o help do comando
+#
+# Autor: Mateus Silva (mateushls01@gmail.com)
+#
+# Data Criação: 12/12/2022
+#
+##########################################################################
+
 
 help() {
     echo -e "Uso ./FuncoesDiversas.sh OPÇÃO DATA\n
